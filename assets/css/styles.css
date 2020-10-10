@@ -1,0 +1,555 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #EDEDED;
+}
+
+.rk {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 92px;
+    color: white;
+    position: absolute;
+    width: 624px;
+    height: 204px;
+    left: 509px;
+    top: 210px;
+    letter-spacing: 0.02em;
+
+	text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.mu {
+    position: absolute;
+    width: 560px;
+    height: 40px;
+    left: 657px;
+    top: 459px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+}
+
+.photo {
+    position: absolute;
+    width: 413px;
+    height: 565px;
+    left: 152px;
+    top: 100px;
+}
+
+.job {
+    position: absolute;
+    width: 309px;
+    height: 52px;
+    left: 152px;
+    top: 1057px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.job2 {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 152px;
+    top: 1100px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em; 
+}
+
+.namecompany {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 659px;
+    top: 1057px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+}
+
+.position {
+    position: absolute;
+    width: 326px;
+    height: 31px;
+    left: 659px;
+    top: 1089px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.timejob {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 659px;
+    top: 1122px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+}
+
+.infojob {
+    position: absolute;
+    width: 389px;
+    height: 171px;
+    left: 660px;
+    top: 1164px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.namecompany2 {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 660px;
+    top: 1408px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.position2 {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    left: 660px;
+    top: 1440px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.timejob2 {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 660px;
+    top: 1473px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.infojob2 {
+    position: absolute;
+    width: 389px;
+    height: 154px;
+    left: 659px;
+    top: 1522px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.edu {
+    position: absolute;
+    width: 309px;
+    height: 52px;
+    left: 152px;
+    top: 1787px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.name_edu1 {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 660px;
+    top: 1787px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.prof_edu1 {
+    position: absolute;
+    width: 568px;
+    height: 31px;
+    left: 660px;
+    top: 1819px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+    letter-spacing: 0.02em;
+}
+
+.city {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 660px;
+    top: 1850px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.name_edu2 {
+    position: absolute;
+    width: 134px;
+    height: 23px;
+    left: 660px;
+    top: 1918px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.prof_edu2 {
+    position: absolute;
+    width: 568px;
+    height: 31px;
+    left: 660px;
+    top: 1950px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.city2 {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 660px;
+    top: 1981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+
+}
+
+.name_edu3 {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 659px;
+    top: 2052px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.prof_edu3 {
+    position: absolute;
+    width: 568px;
+    height: 31px;
+    left: 659px;
+    top: 2084px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.city3 {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 659px;
+    top: 2115px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.recomend {
+    position: absolute;
+    width: 365px;
+    height: 32px;
+    left: 152px;
+    top: 2286px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.recomend2 {
+    position: absolute;
+    width: 404px;
+    height: 34px;
+    left: 152px;
+    top: 2326px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.barma {
+    position: absolute;
+    width: 263px;
+    height: 121px;
+    left: 152px;
+    top: 2422px;
+}
+
+.barma2 {
+    position: absolute;
+    width: 263px;
+    height: 121px;
+    left: 660px;
+    top: 2422px;
+}
+
+.barma3 {
+    position: absolute;
+    width: 263px;
+    height: 121px;
+    left: 152px;
+    top: 2596px;
+}
+
+.barma4 {
+    position: absolute;
+    width: 263px;
+    height: 121px;
+    left: 660px;
+    top: 2596px;
+
+}
+
+.con {
+    position: absolute;
+    width: 365px;
+    height: 32px;
+    left: 152px;
+    top: 3017px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.from {
+    position: absolute;
+    width: 479px;
+    height: 31px;
+    left: 152px;
+    top: 3100px;
+    color: #bababa;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+}
+
+.tel {
+    position: absolute;
+    width: 568px;
+    height: 31px;
+    left: 152px;
+    top: 3150px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 105%;
+
+    text-decoration: none;
+    color: black;
+
+    letter-spacing: 0.02em;
+}
+
+.mail {
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    left: 152px;
+    top: 3180px;
+
+    text-decoration: none;
+    color: black;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+    margin-bottom: 130px;
+}
+
