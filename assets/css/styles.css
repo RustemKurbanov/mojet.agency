@@ -17,7 +17,7 @@
     position: absolute;
     width: 624px;
     height: 204px;
-    left: 509px;
+    left: 657px;
     top: 210px;
     letter-spacing: 0.02em;
 
@@ -75,6 +75,24 @@
     height: 565px;
     left: 152px;
     top: 100px;
+}
+
+.inst {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1050px;
+    top: 35px;
+
+}
+
+.call {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1100px;
+    top: 35px;
+
 }
 
 .job {
@@ -553,3 +571,54 @@
     margin-bottom: 130px;
 }
 
+@media (max-width: 1160 px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .rk {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        width: 624px;
+        height: 204px;
+        left: 657px;
+        top: 210px;
+        letter-spacing: 0.02em;
+    
+        text-shadow: 
+            -0   -1px 0   #000000,
+             0   -1px 0   #000000,
+            -0    1px 0   #000000,
+             0    1px 0   #000000,
+            -1px -0   0   #000000,
+             1px -0   0   #000000,
+            -1px  0   0   #000000,
+             1px  0   0   #000000,
+            -1px -1px 0   #000000,
+             1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+             1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+             1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+             1px  1px 0   #000000;
+    }
+
+
+
+
+}
