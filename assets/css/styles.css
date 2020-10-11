@@ -571,54 +571,24 @@
     margin-bottom: 130px;
 }
 
-@media (max-width: 1160 px) {
-
-    .container {
-        width: 100%;
-    }
-
-    .intro {
-        width: 100%;
-        margin: 0;
-        box-sizing: border-box;
-
-        margin-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
-    }
-
-    .rk {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        color: white;
+@media screen (max-width: 400px) {
+    
+    .mu {
         position: absolute;
-        width: 624px;
-        height: 204px;
-        left: 657px;
-        top: 210px;
+        width: 100px;
+        height: 40px;
+        left: 20px;
+        top: 459px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 105%;
+    
         letter-spacing: 0.02em;
     
-        text-shadow: 
-            -0   -1px 0   #000000,
-             0   -1px 0   #000000,
-            -0    1px 0   #000000,
-             0    1px 0   #000000,
-            -1px -0   0   #000000,
-             1px -0   0   #000000,
-            -1px  0   0   #000000,
-             1px  0   0   #000000,
-            -1px -1px 0   #000000,
-             1px -1px 0   #000000,
-            -1px  1px 0   #000000,
-             1px  1px 0   #000000,
-            -1px -1px 0   #000000,
-             1px -1px 0   #000000,
-            -1px  1px 0   #000000,
-             1px  1px 0   #000000;
+        color: #000000;
     }
-
-
-
 
 }
