@@ -573,7 +573,527 @@
 
 @media only screen and (max-width : 480px) {
     
-    .job {
-        color: red;
+    .container {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
     }
+    
+    .intro {
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 30px;
+    }
+
+    
+    .inst {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 15px;
+        top: 85px;
+
+    }
+    
+    .call {
+        position: absolute;
+        width: 24px;
+        height: 26px;
+        left: 68px;
+        top: 85px;
+
+    }
+
+    .photo {
+        position: absolute;
+        width: 221px;
+        height: 302px;
+        left: 15px;
+        top: 185px;
+
+    }
+
+    .rk {
+        position: absolute;
+        width: 311px;
+        height: 94px;
+        left: 15px;
+        top: 499px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .mu {
+        position: absolute;
+        width: 344px;
+    height: 22px;
+    left: 15px;
+    top: 605px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 105%;
+
+    letter-spacing: 0.02em;
+    }
+
+    .job {
+        position: absolute;
+        width: 309px;
+        height: 64px;
+        left: 16px;
+        top: 805px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 105%;
+    }
+
+    .job2 {
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        left: 16px;
+        top: 850px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .namecompany {
+        position: absolute;
+        width: 344px;
+        height: 19px;
+        left: 15px;
+        top: 934px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+    }
+
+    .position {
+        position: absolute;
+        width: 326px;
+        height: 31px;
+        left: 16px;
+        top: 953px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .timejob {
+        position: absolute;
+        width: 278px;
+        height: 20px;
+        left: 16px;
+        top: 990px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .infojob {
+        position: absolute;
+        width: 311px;
+        height: 147px;
+        left: 16px;
+        top: 1035px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .namecompany2 {
+        position: absolute;
+        width: 479px;
+        height: 17px;
+        left: 16px;
+        top: 1267px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+        
+        letter-spacing: 0.02em;
+    }
+
+    .position2 {
+        position: absolute;
+        width: 335px;
+        height: 31px;
+        left: 15px;
+        top: 1286px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .timejob2 {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        left: 16px;
+        top: 1350px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .infojob2 {
+        position: absolute;
+        width: 312px;
+        height: 116px;
+        left: 15px;
+        top: 1391px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .edu {
+        position: absolute;
+        width: 278px;
+        height: 76px;
+        left: 16px;
+        top: 1606px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .name_edu1 {
+        position: absolute;
+        width: 87px;
+        height: 22px;
+        left: 15px;
+        top: 1702px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .prof_edu1 {
+        position: absolute;
+        width: 278px;
+        height: 22px;
+        left: 16px;
+        top: 1730px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+
+        color: #000000;
+
+    }
+
+    .city {
+        position: absolute;
+        width: 171px;
+        height: 20px;
+        left: 15px;
+        top: 1758px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+
+    }
+
+    .name_edu2 {
+        position: absolute;
+        width: 87px;
+        height: 22px;
+        left: 16px;
+        top: 1826px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .prof_edu2 {
+        position: absolute;
+        width: 278px;
+        height: 22px;
+        left: 17px;
+        top: 1854px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .city2 {
+        position: absolute;
+        width: 170px;
+        height: 20px;
+        left: 16px;
+        top: 1882px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .name_edu3 {
+        position: absolute;
+        width: 158px;
+        height: 22px;
+        left: 15px;
+        top: 1976px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .prof_edu3 {
+        position: absolute;
+        width: 195px;
+        height: 22px;
+        left: 16px;
+        top: 2004px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .city3 {
+        position: absolute;
+        width: 196px;
+        height: 20px;
+        left: 15px;
+        top: 2032px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+        
+        letter-spacing: 0.02em;
+    }
+
+    .recomend {
+        position: absolute;
+        width: 365px;
+        height: 70px;
+        left: 10px;
+        top: 2128px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .barma {
+        position: absolute;
+        width: 263px;
+        height: 121px;
+        left: 17px;
+        top: 2232px;
+    }
+
+    .barma2 {
+        position: absolute;
+        width: 263px;
+        height: 121px;
+        left: 17px;
+        top: 2411px;
+    }
+
+    .barma3 {
+        position: absolute;
+        width: 263px;
+        height: 121px;
+        left: 19px;
+        top: 2590px;
+    }
+
+    .barma4 {
+        position: absolute;
+        width: 263px;
+        height: 121px;
+        left: 19px;
+        top: 2769px;
+    }
+
+    .con {
+        position: absolute;
+        width: 263px;
+        height: 32px;
+        left: 10px;
+        top: 2990px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 105%;
+        
+        letter-spacing: 0.02em;
+    }
+
+    .from {
+        position: absolute;
+        width: 254px;
+        height: 31px;
+        left: 10px;
+        top: 3061px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .tel {
+
+        position: absolute;
+        width: 100%;
+        height: 31px;
+        left: 10px;
+        top: 3110px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+
+    }
+
+    .mail {
+        position: absolute;
+        width: 205px;
+        height: 25px;
+        left: 10px;
+        top: 3150px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+        color: color: rgba(0, 0, 0, 0.5);;
+    }
+
+    .recomend2 {
+        position: absolute;
+        width: 365px;
+        height: 70px;
+        left: 10px;
+        top: 2180px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 105%;
+
+        letter-spacing: 0.02em;
+    }
+
 }
