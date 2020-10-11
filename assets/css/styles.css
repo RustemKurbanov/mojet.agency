@@ -571,24 +571,9 @@
     margin-bottom: 130px;
 }
 
-@media screen (max-width: 400px) {
+@media only screen and (max-width : 480px) {
     
-    .mu {
-        position: absolute;
-        width: 100px;
-        height: 40px;
-        left: 20px;
-        top: 459px;
-    
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 105%;
-    
-        letter-spacing: 0.02em;
-    
-        color: #000000;
+    .job {
+        color: red;
     }
-
 }
