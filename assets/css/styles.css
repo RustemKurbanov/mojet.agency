@@ -75,6 +75,25 @@
     height: 565px;
     left: 152px;
     top: 100px;
+
+    animation-name: photo-anim;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes photo-anim {
+    from {
+        left: 0px;
+
+    }
+
+    to {
+        left: 100px;
+
+    }
 }
 
 .inst {
